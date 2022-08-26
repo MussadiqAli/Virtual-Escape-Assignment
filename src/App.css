@@ -1,0 +1,79 @@
+
+.main-container p{
+  font-size: 20px;
+  color: white;
+}
+
+.experios{
+  padding: 30px;
+  margin: 30px 0 30px 0;
+  border-radius: 10px;
+  border: 1px solid #35515D;
+  background: rgba(17, 52, 70, 0.98);
+   
+}
+.overview{
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    background-color: #0E2634;
+    border-radius: 7px;
+    padding: 10px;
+}
+.img-fluid{
+    height: 45px;
+    width: 45px !important;
+    object-fit: contain;
+}
+.btnCustom{
+  background: transparent linear-gradient(180deg, #F80705 0%, #7B1E1D 100%) 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+    opacity: 0.82;
+    width: 386px;
+      height: 58px;
+      border: 0;
+      color: white;
+}
+.btnCon{
+  width: 200px;
+    height: 37px;
+    background: #11344687 0% 0% no-repeat padding-box;
+      border: 1px solid #35515D;
+      border-radius: 29px;
+      opacity: 1;
+      backdrop-filter: blur(12px);
+      font-weight: 500;
+      color: white;
+
+}
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.topNav img{
+  width: 140px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .btnCon{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+    .topNav  {
+      display: inline;
+     
+    }
+    .topNav img{
+margin: 0 auto;
+  display: block;
+    }
+        .main-container p{
+          font-size: 14px;
+        }
+                .btnCustom{
+                  width: 100%;
+                }
+}
